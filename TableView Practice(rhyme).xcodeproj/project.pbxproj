@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		771ECD98298CC9390091A450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771ECD97298CC9390091A450 /* AppDelegate.swift */; };
 		771ECD9A298CC9390091A450 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771ECD99298CC9390091A450 /* SceneDelegate.swift */; };
-		771ECD9C298CC9390091A450 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771ECD9B298CC9390091A450 /* ViewController.swift */; };
 		771ECD9F298CC9390091A450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771ECD9D298CC9390091A450 /* Main.storyboard */; };
 		771ECDA1298CC9390091A450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771ECDA0298CC9390091A450 /* Assets.xcassets */; };
 		771ECDA4298CC9390091A450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771ECDA2298CC9390091A450 /* LaunchScreen.storyboard */; };
+		771ECDAC298CC9B30091A450 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771ECDAB298CC9B30091A450 /* ListTableViewCell.swift */; };
+		771ECDAE298CCB7B0091A450 /* rhymeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771ECDAD298CCB7B0091A450 /* rhymeTableViewController.swift */; };
+		771ECDB0298CCBDF0091A450 /* Rhyme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771ECDAF298CCBDF0091A450 /* Rhyme.swift */; };
+		771ECDB2298CCD7C0091A450 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771ECDB1298CCD7C0091A450 /* Sort.swift */; };
+		771ECDB4298E2D610091A450 /* SafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771ECDB3298E2D610091A450 /* SafariViewController.swift */; };
+		771ECDB7298E36EB0091A450 /* ChineseSongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771ECDB6298E36EB0091A450 /* ChineseSongTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		771ECD94298CC9390091A450 /* TableView Practice(rhyme).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView Practice(rhyme).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		771ECD97298CC9390091A450 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		771ECD99298CC9390091A450 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		771ECD9B298CC9390091A450 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		771ECD9E298CC9390091A450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		771ECDA0298CC9390091A450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		771ECDA3298CC9390091A450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		771ECDA5298CC9390091A450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		771ECDAB298CC9B30091A450 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		771ECDAD298CCB7B0091A450 /* rhymeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rhymeTableViewController.swift; sourceTree = "<group>"; };
+		771ECDAF298CCBDF0091A450 /* Rhyme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rhyme.swift; sourceTree = "<group>"; };
+		771ECDB1298CCD7C0091A450 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
+		771ECDB3298E2D610091A450 /* SafariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
+		771ECDB6298E36EB0091A450 /* ChineseSongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseSongTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +68,26 @@
 			children = (
 				771ECD97298CC9390091A450 /* AppDelegate.swift */,
 				771ECD99298CC9390091A450 /* SceneDelegate.swift */,
-				771ECD9B298CC9390091A450 /* ViewController.swift */,
+				771ECDB5298E32BC0091A450 /* Controllers */,
 				771ECD9D298CC9390091A450 /* Main.storyboard */,
+				771ECDB1298CCD7C0091A450 /* Sort.swift */,
+				771ECDAF298CCBDF0091A450 /* Rhyme.swift */,
+				771ECDAB298CC9B30091A450 /* ListTableViewCell.swift */,
+				771ECDB6298E36EB0091A450 /* ChineseSongTableViewCell.swift */,
 				771ECDA0298CC9390091A450 /* Assets.xcassets */,
 				771ECDA2298CC9390091A450 /* LaunchScreen.storyboard */,
 				771ECDA5298CC9390091A450 /* Info.plist */,
 			);
 			path = "TableView Practice(rhyme)";
+			sourceTree = "<group>";
+		};
+		771ECDB5298E32BC0091A450 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				771ECDB3298E2D610091A450 /* SafariViewController.swift */,
+				771ECDAD298CCB7B0091A450 /* rhymeTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				771ECD9C298CC9390091A450 /* ViewController.swift in Sources */,
+				771ECDAE298CCB7B0091A450 /* rhymeTableViewController.swift in Sources */,
+				771ECDAC298CC9B30091A450 /* ListTableViewCell.swift in Sources */,
+				771ECDB7298E36EB0091A450 /* ChineseSongTableViewCell.swift in Sources */,
 				771ECD98298CC9390091A450 /* AppDelegate.swift in Sources */,
+				771ECDB0298CCBDF0091A450 /* Rhyme.swift in Sources */,
 				771ECD9A298CC9390091A450 /* SceneDelegate.swift in Sources */,
+				771ECDB4298E2D610091A450 /* SafariViewController.swift in Sources */,
+				771ECDB2298CCD7C0091A450 /* Sort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
