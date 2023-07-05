@@ -69,13 +69,11 @@
 				771ECD97298CC9390091A450 /* AppDelegate.swift */,
 				771ECD99298CC9390091A450 /* SceneDelegate.swift */,
 				771ECDB5298E32BC0091A450 /* Controllers */,
+				7723F82C2A53090200A9C734 /* Model */,
+				7723F82B2A5308F300A9C734 /* View */,
 				771ECD9D298CC9390091A450 /* Main.storyboard */,
-				771ECDB1298CCD7C0091A450 /* Sort.swift */,
-				771ECDAF298CCBDF0091A450 /* Rhyme.swift */,
-				771ECDAB298CC9B30091A450 /* ListTableViewCell.swift */,
-				771ECDB6298E36EB0091A450 /* ChineseSongTableViewCell.swift */,
-				771ECDA0298CC9390091A450 /* Assets.xcassets */,
 				771ECDA2298CC9390091A450 /* LaunchScreen.storyboard */,
+				771ECDA0298CC9390091A450 /* Assets.xcassets */,
 				771ECDA5298CC9390091A450 /* Info.plist */,
 			);
 			path = "TableView Practice(rhyme)";
@@ -88,6 +86,24 @@
 				771ECDAD298CCB7B0091A450 /* rhymeTableViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7723F82B2A5308F300A9C734 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				771ECDAB298CC9B30091A450 /* ListTableViewCell.swift */,
+				771ECDB6298E36EB0091A450 /* ChineseSongTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7723F82C2A53090200A9C734 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				771ECDB1298CCD7C0091A450 /* Sort.swift */,
+				771ECDAF298CCBDF0091A450 /* Rhyme.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

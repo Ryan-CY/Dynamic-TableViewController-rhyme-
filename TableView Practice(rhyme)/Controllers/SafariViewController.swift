@@ -23,14 +23,19 @@ class SafariViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("website", website)
         updatedUI()
     }
     
     func updatedUI() {
+        
         let url = URL(string: website)
         let browser = SFSafariViewController(url: url!)
         present(browser, animated: true)
+        
+        browser.dismiss(animated: true) {
+            self.navigationController?.popToRootViewController(animated: true)
+        }
     }
     
     /*
